@@ -27,17 +27,12 @@ def main():
 
     while True:
         # Input
-        number_1_as_string = input(color.BOLD + color.YELLOW + 
-                              'Input your first number: ' + color.END)
-        number_2_as_string = input(color.BOLD + color.YELLOW + 
-                              'Input your second number: ' + color.END)
-        number_3_as_string = input(color.BOLD + color.YELLOW + 
-                              'Input your third number: ' + color.END)
-
-        if number_1_as_string == ("joe") or number_2_as_string == ("joe") \
-        or number_3_as_string == ("joe"):
-            print("")
-            print("JOE MAMA!")
+        number_1_as_string = input(color.BOLD + color.YELLOW +
+                                   'Input your first number: ' + color.END)
+        number_2_as_string = input(color.BOLD + color.YELLOW +
+                                   'Input your second number: ' + color.END)
+        number_3_as_string = input(color.BOLD + color.YELLOW +
+                                   'Input your third number: ' + color.END)
 
         # Process
         try:
@@ -100,7 +95,7 @@ def main():
         # re-input their age.
         except Exception:
             print('')
-            print(color.RED + 'One or more of those were not numbers' 
+            print(color.RED + 'One or more of those were not numbers'
                   + color.END)
             print("")
             print("")
